@@ -1,0 +1,16 @@
+@import "function.scss";
+
+.top-carousel {
+    padding-top: 90px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100vw;
+        height: calc(100vh - 90px);
+    }
+
+    .top-carousel__item {
+        background: url(https://gizumo-inc.jp/wp-content/themes/gizumo/images/top/top_carousel_01.jpg) no-repeat center/cover;
+    }
+}

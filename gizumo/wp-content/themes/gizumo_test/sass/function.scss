@@ -1,0 +1,9 @@
+// color
+$bace-color: #14142d;
+$pc-max-width: 960px;
+
+//画面共通部品
+@mixin common-screen() {
+    margin: 0 auto;
+    max-width: $pc-max-width;
+}

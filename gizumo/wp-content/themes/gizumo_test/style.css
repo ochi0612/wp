@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/*
+Theme Name: gizumo_test
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  position: relative;
+  min-height: 100%;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.3;
+  word-break: break-all;
+  font-family: YuGothic, '游ゴシック', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+img {
+  vertical-align: middle; }
+
+span, i {
+  display: inline-block; }
+
+input, textarea, button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  -webkit-appearance: none; }
+
+input:-webkit-autofill, textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset; }
+
+.clearfix:before,
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+b, .b {
+  font-weight: bold; }
+
+.u-full {
+  width: 100%;
+  height: auto; }
+
+.u-mb40 {
+  margin-bottom: 40px; }
+
+html, body {
+  height: 100%; }
+
+.header__base {
+  padding: 21px 0;
+  background-color: #14142d;
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  z-index: 999; }
+  .header__base .header {
+    margin: 0 auto;
+    max-width: 960px; }
+    .header__base .header__logo {
+      width: 195px;
+      display: inline-block; }
+    .header__base .header__nav {
+      float: right;
+      padding-top: 3px; }
+      .header__base .header__nav__list__item {
+        font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+        display: inline-block;
+        margin-left: 30px; }
+        .header__base .header__nav__list__item__link {
+          font-weight: bold;
+          color: #fff;
+          line-height: 40px;
+          font-size: 22px;
+          font-family: 'Source Sans Pro', sans-serif; }
+
+.top-carousel {
+  padding-top: 90px;
+  position: relative;
+  overflow: hidden; }
+  .top-carousel img {
+    width: 100vw;
+    height: calc(100vh - 90px); }
+  .top-carousel .top-carousel__item {
+    background: url(https://gizumo-inc.jp/wp-content/themes/gizumo/images/top/top_carousel_01.jpg) no-repeat center/cover; }
+
+.footer__bace .footer {
+  background-color: #14142d; }
+  .footer__bace .footer__nav {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 30px 30px 30px; }
+    .footer__bace .footer__nav__list__item {
+      float: left;
+      margin-top: 10px;
+      margin-left: 0; }
+      .footer__bace .footer__nav__list__item__link {
+        position: relative;
+        display: block;
+        padding-left: 20px;
+        width: 150px;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+        margin: 3px 0; }
+        .footer__bace .footer__nav__list__item__link:first-child {
+          padding-left: 20px;
+          margin-bottom: 10px; }
+        .footer__bace .footer__nav__list__item__link:before {
+          position: absolute;
+          top: 50%;
+          left: 7px;
+          margin-top: -4px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 4px 0 4px 7px;
+          border-color: transparent transparent transparent #1d4982;
+          content: ''; }
+
+.footer__bace .copyright {
+  background-color: #e6e6e6;
+  color: #14142d; }
+  .footer__bace .copyright__inner {
+    text-align: center;
+    padding: 50px 40px 20px;
+    margin: 0 auto;
+    max-width: 960px; }
+    .footer__bace .copyright__inner .copyright__icons .copyright__title {
+      float: left;
+      width: 132px;
+      height: auto;
+      margin-right: 30px; }
+      .footer__bace .copyright__inner .copyright__icons .copyright__title__logo {
+        width: 100%; }
+    .footer__bace .copyright__inner .copyright__icons .sns-icon {
+      float: left; }
+      .footer__bace .copyright__inner .copyright__icons .sns-icon > li {
+        float: left;
+        margin-right: 5px; }
+        .footer__bace .copyright__inner .copyright__icons .sns-icon > li .tw__icon {
+          width: 35px;
+          height: 25px; }
+        .footer__bace .copyright__inner .copyright__icons .sns-icon > li .fb__icon {
+          width: 23px;
+          height: 22px; }
+    .footer__bace .copyright__inner .footer-link {
+      position: relative;
+      height: 35px;
+      padding-top: 15px; }
+      .footer__bace .copyright__inner .footer-link ul {
+        position: relative;
+        left: 14%;
+        float: left; }
+        .footer__bace .copyright__inner .footer-link ul li {
+          position: relative;
+          left: -50%;
+          float: left; }
+          .footer__bace .copyright__inner .footer-link ul li > a {
+            font-size: 13px;
+            color: #14142d;
+            text-decoration: none;
+            padding: 15px; }
+        .footer__bace .copyright__inner .footer-link ul .footer-bar + li {
+          border-left: solid 1px #14142d; }
+    .footer__bace .copyright__inner .copyright__body {
+      text-align: right;
+      font-size: 13px;
+      line-height: 20px; }

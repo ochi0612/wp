@@ -1,0 +1,43 @@
+@import "function.scss";
+
+.header__base {
+    padding: 21px 0;
+    background-color: $bace-color;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 999;
+
+
+    .header {
+        @include common-screen();
+
+        &__logo {
+            width: 195px;
+            display: inline-block;
+        }
+
+        &__nav {
+            float: right;
+            padding-top: 3px;
+
+            &__list {
+
+                &__item {
+                    font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+                    display: inline-block;
+                    margin-left: 30px;
+
+                    &__link {
+                        font-weight: bold;
+                        color: #fff;
+                        line-height: 40px;
+                        font-size: 22px;
+                        font-family: 'Source Sans Pro', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+
